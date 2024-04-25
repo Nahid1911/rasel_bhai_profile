@@ -15,7 +15,7 @@ const Intro = () => {
             Accountants of Bangladesh (ICAB).{" "}
           </h2>
 
-          <p className="font-newsreader text-xl font-semibold sm:text-lg md:text-xl">
+          <p className="text-justify font-newsreader text-l font-semibold sm:text-lg md:text-xl">
             {/* Unique blend of <span className="text-violet-400">tech skills</span>{" "}
             and <span className="text-violet-400">business acumen</span>,
             transforming client needs into effective software solutions aligned
