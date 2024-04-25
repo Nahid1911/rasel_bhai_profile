@@ -10,19 +10,29 @@ const Intro = () => {
             Hi! I'm <span className="poppins text-violet-400">Rasel</span>{" "}
             Rahman, ACA <br />
           </h2>
-          <h2 className="font-semibold text-xl sm:text-2xl md:text-2xl md:mt-0">
-            A Qualified Chartered Accountant with the Institute of Chartered Accountants of Bangladesh (ICAB).{" "}
+          <h2 className="font-semibold italic text-xl sm:text-2xl md:text-2xl md:mt-0">
+            A Qualified Chartered Accountant with the Institute of Chartered
+            Accountants of Bangladesh (ICAB).{" "}
           </h2>
 
-          <p className="font-newsreader text-2xl font-semibold sm:text-lg md:text-xl">
+          <p className="font-newsreader text-xl font-semibold sm:text-lg md:text-xl">
             {/* Unique blend of <span className="text-violet-400">tech skills</span>{" "}
             and <span className="text-violet-400">business acumen</span>,
             transforming client needs into effective software solutions aligned
             with business goals. */}
-            I began my career with Masih Muhith Haque & Co. <small>(Chartered
-            Accountants)</small> in 2010 as an articled student. Post completion of my
-            articleship, I have gathered 10+ years of experience from multiple
-            organizations working in various industries.
+            I obtained my qualification in
+            2023 from The Institute of Chartered Accountants of Bangladesh
+            (ICAB) during my tenure at Masih Muhith Haque & Co. (RSM in
+            Bangladesh). With over thirteen years of diverse professional
+            experience across various sectors including RMG and service
+            industries, I brings a wealth of expertise to my role. At Masih
+            Muhith Haque & Co., I am specializes in taxation services for both
+            corporate entities and individuals. I also oversees a range of
+            outsourcing assignments, providing support services in Accounting,
+            VAT, and Secretarial functions. My skills span across multiple
+            areas including Accounts, Due diligence, Taxation, Financial
+            management, Business Process Outsourcing (BPO), Financing, Banking, and Financial policy
+            development.
           </p>
           {/* <a
             href="https://drive.google.com/file/d/12VQbmxNaYHsYArwW9PQR-lHMRzPZlXAm/view?usp=sharing"
@@ -50,7 +60,7 @@ const Intro = () => {
             data-aos-offset="500"
             data-aos-duration="500"
           />
-          <div className="flex flex-row grid grid-cols-5 gap-4">
+          <div className="flex flex-row grid-cols-5 gap-4">
             <a
               href="https://www.linkedin.com/in/nahidraihan/"
               target="_blank"
