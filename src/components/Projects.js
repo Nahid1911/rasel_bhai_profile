@@ -28,7 +28,7 @@ const Projects = () => {
     {
       projectId: 6,
       projectName: "Financing",
-      techStack: ["Internal Audit & Valuation", "Project Profile Preparation", "Financial Modeling"],
+      techStack: ["Internal Audit", "Project Profile Preparation", "Financial Modeling", "Company Valuation", "Personal Valuation"],
     },
   ];
   return (
