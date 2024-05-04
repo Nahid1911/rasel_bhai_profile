@@ -6,16 +6,16 @@ const Intro = () => {
         className="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 sm:py-8"
       >
         <div className="flex flex-col lg:justify-center text-left lg-text-left gap-6 md:gap-8 lg:gap-10">
-          <h2 className="font-semibold text-4xl sm:text-5xl md:text-5xl">
+          <h2 className="font-semibold text-4xl sm:text-4xl md:text-4xl">
             Hi! I'm <span className="poppins text-violet-400">Rasel</span>{" "}
             Rahman, ACA <br />
           </h2>
-          <h2 className="font-semibold italic text-xl sm:text-2xl md:text-2xl md:mt-0">
+          <h2 className="font-semibold italic sm:text-2xl md:text-2xl md:mt-0">
             A Qualified Chartered Accountant with the Institute of Chartered
             Accountants of Bangladesh (ICAB).{" "}
           </h2>
 
-          <p className="text-justify font-newsreader text-l font-semibold sm:text-lg md:text-xl">
+          <p className="text-justify font-newsreader font-semibold">
             {/* Unique blend of <span className="text-violet-400">tech skills</span>{" "}
             and <span className="text-violet-400">business acumen</span>,
             transforming client needs into effective software solutions aligned
@@ -61,7 +61,7 @@ const Intro = () => {
             data-aos-duration="500"
           />
           <div className="flex flex-row grid-cols-5 gap-4">
-            <a
+            {/* <a
               href="https://www.linkedin.com/in/nahidraihan/"
               target="_blank"
               className="blueShadow mx-auto w-full lg:mr-auto text-base sm:text-lg md:text-xl
@@ -73,8 +73,8 @@ const Intro = () => {
                 class="fa-brands fa-linkedin-in fa-bounce"
                 style={{ color: "#300782" }}
               ></i>
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://www.facebook.com/nahid.sardar"
               target="_blank"
               className="blueShadow mx-auto w-full lg:mr-auto text-base sm:text-lg md:text-xl
@@ -86,8 +86,8 @@ const Intro = () => {
                 class="fa-brands fa-facebook-f fa-beat"
                 style={{ color: "#300782" }}
               ></i>
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://github.com/Nahid1911"
               target="_blank"
               className="blueShadow mx-auto w-full lg:mr-auto text-base sm:text-lg md:text-xl
@@ -99,8 +99,8 @@ const Intro = () => {
                 class="fa-brands fa-github fa-bounce"
                 style={{ color: "#300782" }}
               ></i>
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://medium.com/@nahid.raihan"
               target="_blank"
               className="blueShadow mx-auto w-full lg:mr-auto text-base sm:text-lg md:text-xl
@@ -112,8 +112,8 @@ const Intro = () => {
                 class="fa-brands fa-medium fa-flip"
                 style={{ color: "#300782" }}
               ></i>
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://www.youtube.com/@nahidraihan"
               target="_blank"
               className="blueShadow mx-auto w-full lg:mr-auto text-base sm:text-lg md:text-xl
@@ -125,7 +125,7 @@ const Intro = () => {
                 class="fa-brands fa-youtube fa-beat"
                 style={{ color: "#300782" }}
               ></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

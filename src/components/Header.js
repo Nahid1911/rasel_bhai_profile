@@ -60,7 +60,7 @@ const Header = () => {
           Skills
         </a>
         <a href='#projects' className='duration-200 hover:text-violet-400'>
-          Projects
+          Services
         </a>
         <a href='#contact' className='duration-200 hover:text-violet-400'>
           Contact

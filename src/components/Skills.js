@@ -1,7 +1,7 @@
 const Skills = () => (
   <section id="Skills" className="pt-10 pb-0 lg:pt-22 flex flex-col gap-24">
     <div className="flex flex-col flex-1 px-8">
-      <h6 className="text-left font-semibold text-xl sm:text-4xl md:text-5xl">
+      <h6 className="text-center font-semibold text-xl sm:text-4xl md:text-5xl">
         My{" "}
         <span className="poppins text-violet-400">
           Associations and Qualifications{" "}
