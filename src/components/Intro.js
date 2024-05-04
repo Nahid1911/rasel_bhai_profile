@@ -1,6 +1,6 @@
 const Intro = () => {
   return (
-    <div className="flex flex-col flex-1 p-4">
+    <div className="flex flex-col flex-1 p-4 pb-10">
       <section
         id="intro"
         className="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 sm:py-8"
