@@ -16,7 +16,7 @@ function App() {
     }, [])
 
     return (
-        <div className="App text-white">
+        <div className="App text-white font-serif">
             <Particles options={particlesOptions} init={particlesInit}/>
             <Header />
             <Intro />

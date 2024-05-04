@@ -1,6 +1,6 @@
 const Intro = () => {
   return (
-    <div className="flex flex-col flex-1 p-4 pb-10">
+    <div className="flex flex-col flex-1 p-4 pb-10 ml-4">
       <section
         id="intro"
         className="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 sm:py-8"
@@ -10,17 +10,14 @@ const Intro = () => {
             Hi! I'm <span className="poppins text-violet-400">Rasel</span>{" "}
             Rahman, ACA <br />
           </h2>
-          <h2 className="font-semibold italic sm:text-2xl md:text-2xl md:mt-0">
+          <h2 className="text-justify italic sm:text-2xl md:text-2xl md:mt-0">
             A Qualified Chartered Accountant with the Institute of Chartered
             Accountants of Bangladesh (ICAB).{" "}
           </h2>
 
           <p className="text-justify font-newsreader font-semibold">
-            {/* Unique blend of <span className="text-violet-400">tech skills</span>{" "}
-            and <span className="text-violet-400">business acumen</span>,
-            transforming client needs into effective software solutions aligned
-            with business goals. */}
-            I obtained my qualification in
+
+            I obtained my CA qualification in
             2023 from The Institute of Chartered Accountants of Bangladesh
             (ICAB) during my tenure at Masih Muhith Haque & Co. (RSM in
             Bangladesh). With over thirteen years of diverse professional

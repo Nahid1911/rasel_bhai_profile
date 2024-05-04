@@ -25,6 +25,11 @@ const Projects = () => {
       projectName: "RJSC Work",
       techStack: ["Company Registration", "Annual Return Filing", "Share Transfer", "Secreterial Works"],
     },
+    {
+      projectId: 6,
+      projectName: "Financing",
+      techStack: ["Internal Audit & Valuation", "Project Profile Preparation", "Financial Modeling"],
+    },
   ];
   return (
     <section id="projects" className="py-20 lg:py-30 flex flex-col gap-24">
@@ -32,7 +37,7 @@ const Projects = () => {
         <h3 className="font-semibold text-3xl sm:text-4xl md:text-5xl">
           My  <span className="poppins text-violet-400">Services</span> includes but not limited to
         </h3>
-        <div className="grid grid-cols-1 pt-4 px-8 mx-4 sm:grid-cols-5">
+        <div className="grid grid-cols-1 pt-4 px-8 mx-4 sm:grid-cols-6">
           {projects.map((project) => (
             <div
               className="flex-row grid grid-cols-1 lg:grid-cols-3 py-4 sm:py-8"
@@ -41,14 +46,14 @@ const Projects = () => {
               <div
                 className="flex flex-col w-full col-span-3"
               >
-                <div className="flex size-small text-transform: uppercase text-xl text-violet-400">
+                <div className="flex size-small text-transform: uppercase text-l text-violet-400">
                   <h3>{project.projectName}</h3>
                 </div>
 
-                <div className="flex flex-col w-full">
+                <div className="flex flex-col w-full pt-4 gap-2">
                   {project.techStack.map((tech) => (
                     <span
-                      className="flex text-sm sm:text-base md:text-lg"
+                      className="flex gap-2 text-sm sm:text-base md:text-sm"
                       key={tech}
                     >
                       <i className="fa-solid fa-check text-green-500" />

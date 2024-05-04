@@ -10,10 +10,10 @@ function ContactForm() {
     <section id="contact" className="py-16 px-6 sm:py-16">
       <div>
       <h6 className="text-lg sm:text-xl md:text-2xl">
-      Let's have a small tech-talk
+      I am here to serve you
         </h6>
         <h3 className="font-semibold text-3xl sm:text-4xl md:text-5xl">
-          Drop an <span className="poppins text-violet-400">email</span> to share your convenient time
+          Please drop an <span className="poppins text-violet-400">email<i className="fa-solid fa-envelope text-green-500 ml-2" /></span> to me
         </h3>
       <form onSubmit={handleSubmit} className="flex flex-col gap-3 px-[10vw] py-16 md:mx-[20vw]">
         <input id="email" type="email" name="email" placeholder="Type your email here" className="rounded-[10px] p-4" label="email" />
@@ -24,7 +24,7 @@ function ContactForm() {
           field="message"
           errors={state.errors}
         />
-        <button type="submit" disabled={state.submitting} className="flex py-3 justify-around gap-2 bg-white text-violet-900 max-w-[200px] rounded-[20px]">
+        <button type="submit" disabled={state.submitting} className="flex py-3 justify-around gap-2 bg-white text-violet-900 max-w-[200px] rounded-[20px] hover:bg-violet-900 hover:text-white">
           Submit
         </button>
       </form>

@@ -20,31 +20,31 @@ const Header = () => {
           &#9776;
         </button>
         {isMenuOpen && (
-          <div className='bg-violet absolute top-16 right-0 left-0 flex flex-col items-center gap-3'>
+          <div className='mr-12 ml-64 bg-white absolute right-0 left-0 flex flex-col items-end gap-3 rounded-xl py-2 px-2'>
             <a
               href='#intro'
-              className='block py-2 bg-violet-400 rounded-full w-[50%] hover:bg-violet-800'
+              className='block py-2 bg-violet-400 rounded-full w-full hover:bg-violet-800'
               onClick={toggleMenu}
             >
               About Me
             </a>
             <a
               href='#Skills'
-              className='block py-2 bg-violet-400 rounded-full w-[50%] hover:bg-violet-800'
+              className='block py-2 bg-violet-400 rounded-full w-full hover:bg-violet-800'
               onClick={toggleMenu}
             >
               Skills
             </a>
             <a
               href='#projects'
-              className='block py-2 bg-violet-400 rounded-full w-[50%] hover:bg-violet-800'
+              className='block py-2 bg-violet-400 rounded-full w-full hover:bg-violet-800'
               onClick={toggleMenu}
             >
-              Projects
+              Services
             </a>
             <a
               href='#contact'
-              className='block py-2 bg-violet-400 rounded-full w-[50%] hover:bg-violet-800'
+              className='block py-2 bg-violet-400 rounded-full w-full hover:bg-violet-800'
               onClick={toggleMenu}
             >
               Contact
