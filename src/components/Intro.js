@@ -52,7 +52,6 @@ const Intro = () => {
             src={"./pic_rasel_rahman.jpg"}
             alt="Profile Pic"
             className="rounded-full object-cover z-[2] max-h-[60vh]"
-            data-aos="fade-left"
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
             data-aos-duration="500"
