@@ -2,7 +2,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("meqwrjvl");
+  const [state, handleSubmit] = useForm("myyrvgvo");
   if (state.succeeded) {
     return <p className="font-semibold text-3xl py-32 sm:text-4xl md:text-5xl">Thanks for Sending The Email</p>;
   }
@@ -16,7 +16,7 @@ function ContactForm() {
           Please drop an <span className="poppins text-violet-400">email<i className="fa-solid fa-envelope text-green-500 ml-2" /></span> to me
         </h3>
       <form onSubmit={handleSubmit} className="flex flex-col gap-3 px-[10vw] py-16 md:mx-[20vw]">
-        <input id="email" type="email" name="email" placeholder="Type your email here" className="rounded-[10px] p-4" label="email" />
+        <input id="email" type="email" name="email" placeholder="Type your email here" className="rounded-[10px] p-4 text-black" label="email" />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea id="message" name="message" placeholder="Your Message" className="rounded-[10px] p-4 text-black" label="message box"/>
         <ValidationError
