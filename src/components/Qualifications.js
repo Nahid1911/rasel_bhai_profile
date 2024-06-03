@@ -37,11 +37,11 @@ const Qualifications = () => (
       </li>
       <li class="py-2 flex flex-row">
         <i className="fa-solid fa-book text-green-500 mr-2 ml-8" />
-        Master of Business Studies, National University (2010).
+        Master of Business Studies.
       </li>
       <li class="py-2 flex flex-row">
         <i className="fa-solid fa-book text-green-500 mr-2 ml-8" />
-        Bachelor of Business Studies, National University (2008).
+        Bachelor of Business Studies.
       </li>
     </ol>
   </section>

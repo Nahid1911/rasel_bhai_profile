@@ -9,6 +9,8 @@ const Projects = () => {
         "Bank Reconciliation",
         "Financial Reporting",
         "Management Reporting",
+        "Payroll Management",
+        "Product Costing",
       ],
     },
     {
@@ -19,6 +21,7 @@ const Projects = () => {
         "Individual Tax Filing",
         "Tax Assessment",
         "Tax Planning",
+        "Collection of Reduced Tax Certificate",
       ],
     },
     {
@@ -49,6 +52,7 @@ const Projects = () => {
         "Annual Return Filing",
         "Share Transfer",
         "Secreterial Works",
+        "Liquidation of Company",
       ],
     },
     {
@@ -56,6 +60,7 @@ const Projects = () => {
       projectName: "Financing",
       techStack: [
         "Project Profile Preparation",
+        "Assistance in Opening Bank account for Foreign Company",
         "Financial Modeling",
         "Company Valuation",
         "Personal Valuation",
