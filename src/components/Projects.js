@@ -21,7 +21,7 @@ const Projects = () => {
         "Individual Tax Filing",
         "Tax Assessment",
         "Tax Planning",
-        "Collection of Reduced Tax Certificate",
+        "Reduced Tax Certificate",
       ],
     },
     {
@@ -42,6 +42,7 @@ const Projects = () => {
         "Payment Processing",
         "Recording Transactions",
         "Regulatory Complience",
+        "Commercial Works",
       ],
     },
     {
@@ -60,7 +61,7 @@ const Projects = () => {
       projectName: "Financing",
       techStack: [
         "Project Profile Preparation",
-        "Assistance in Opening Bank account for Foreign Company",
+        "Opening Bank Account",
         "Financial Modeling",
         "Company Valuation",
         "Personal Valuation",
